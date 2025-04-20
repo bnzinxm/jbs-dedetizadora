@@ -10,7 +10,7 @@ import VirtualAttendance from './components/VirtualAttendance';
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/jbs-dedetizadora">
       <Routes>
         <Route path="/" element={<LandingPage />}/>
         <Route path="/sobre-nos" element={<AboutPage />} />
